@@ -238,7 +238,7 @@ footer li{
 }
 .footer_bottom::after{
     clear: both;
-    /* display: table; */
+    display: table;
     content: " ";
 }
 .footer_bottom_first{
