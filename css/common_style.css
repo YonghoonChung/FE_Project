@@ -1,12 +1,12 @@
 /* normalizing */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap');
 *{
     margin:0;
     padding:0;
+    font-family: "맑은고딕";
     font-size:18px;
-    font-weight: 600;
+    font-weight: bold;
+    letter-spacing: -0.1em;
     box-sizing:border-box;
-    font-family: 'Noto Sans KR', sans-serif;
 }
 a{
     text-decoration: none;
@@ -87,9 +87,6 @@ body{
     top: 38px;
     left:105px;
 }
-
-
-
 
 
 
