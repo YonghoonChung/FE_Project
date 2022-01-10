@@ -2,9 +2,36 @@
 
 /* ========공용======== */
 /* 작은 메뉴바 */
-.container{
-    position:relative;
-    top:173px;
+.tbcontainer{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 48px;
+    width: 1312px;
+}
+.loastingcontainer::after{
+    content:"";
+    display:block;
+    clear:both;
+    margin-bottom:200px;
+}
+.sepcontainer::after{
+    content:"";
+    display:block;
+    clear:both;
+    margin-bottom:180px;
+}
+.dessertcontainer::after{
+    content:"";
+    display:block;
+    clear:both;
+    margin-bottom:230px;
+}
+.cndcontainer::after{
+    content:"";
+    display:block;
+    clear:both;
+    margin-bottom:190px;
 }
 .dot{
     border:1.5px solid black;
