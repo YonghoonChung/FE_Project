@@ -93,7 +93,6 @@ body{
 /* 서브메뉴 */
 .submenubarBox{
     display:none;
-    z-index: 1000;
 }
 .headerBox:hover{
     background-color:white;
@@ -111,7 +110,6 @@ body{
     background-color: white;
 }
 .submenubarBox{
-    z-index: 9999;
     margin-top:100px;
     width:100%;
     height: 320px;
@@ -156,9 +154,8 @@ body{
 footer{
     background-color: #222;
     color: #fff;
-    margin-top: 450px;
+    margin-top: 40px;
     padding: 48px 0;
-    
 }
 footer li{
     list-style: none;
@@ -319,4 +316,3 @@ footer li{
     display: inline-block;
     
 }
-
