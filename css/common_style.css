@@ -21,14 +21,10 @@ ul, ol{
 }
 body{
     overflow-x: hidden;
-<<<<<<< HEAD
-    overflow-y: scroll;
-=======
     overflow-y: visible;
 }
 body::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera*/
->>>>>>> yonghoon
 }
 .wrapper{
     display: flex;
@@ -335,9 +331,6 @@ footer li{
     display: inline-block;
     
 }
-<<<<<<< HEAD
-
-=======
 /* modal */
 #pop_1{
     display: none;
@@ -426,4 +419,3 @@ background-color: rgba(0,0,0,.2)
     font-size: 18px;
     font-weight: 400;
 }
->>>>>>> yonghoon
