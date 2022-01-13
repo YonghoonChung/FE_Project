@@ -8,6 +8,10 @@
     letter-spacing: -0.1em;
     box-sizing:border-box;
 }
+html, body{
+    width: 100%; 
+    height: 100%;
+}
 a{
     text-decoration: none;
     color:black;
@@ -22,7 +26,15 @@ body{
 body::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera*/
 }
-
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.main-content{
+    padding-top: 100px;
+    flex: 1;
+}
 .headerBox{
     width:100%;
     height:100px;
@@ -163,7 +175,7 @@ footer{
 footer li{
     list-style: none;
 }
-.container{
+#footer .container{
     display: block;
     position: relative;
     margin: 0 auto;
