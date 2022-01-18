@@ -524,6 +524,7 @@ background-color: rgba(0,0,0,.2)
     margin-top: 64px;
     padding-right: 32px;
     letter-spacing: -0.5px;
+    font-weight: normal;
 }
 .text_img .story_img {
     /* flex-basis: 40%; */
@@ -672,11 +673,20 @@ background-color: rgba(0,0,0,.2)
 }
 
 .signature_list{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 24px;
 }
 .signature_list li{
     float: left;
-    width: 280px
+    flex-wrap: wrap;
+    width: 280px;
+}
+.signature_list.dessert_deli>li:nth-child(4n+1){
+    margin-left: 0;
+}
+.signature_list.dessert_deli>li:nth-child(n+5){
+    margin-top: 64px;
 }
 .signature_list li .story_img{
     position: relative;
