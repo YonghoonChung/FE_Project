@@ -1,0 +1,117 @@
+.notice{
+    border: 1px solid black;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.smallmenu {
+    border: 1px solid black;
+    display: block;
+    height: 20px;
+}
+.smallmenu p{
+    line-height: 20px;
+}
+
+.notice .title-wrap{
+    margin-top: 20px;
+    display: block;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.5;
+    height: 80px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+h1.title-h1{
+    padding-top: 20px;
+    margin-top: 80px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.5;
+    height: 80px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.seacrhbar-wrap{
+    border: 1px solid black;
+    display: block;
+    height: 30px;
+}
+
+.seacrhbar-wrap .seacrhbar{
+    text-align: right;
+    line-height: 30px;
+}
+.bodycontainer .bbs-list{
+    margin-top: 40px;
+}
+
+.bodycontainer .bbs-list span#num{
+    float: left;
+    display: table-cell;
+    height: 116px;
+    line-height: 116px;
+    width: 90px;
+    padding: 0px 32px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.bodycontainer .bbs-list strong#subject{
+    float: left;
+    position: relative;
+    padding-right: 24px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    display: table-cell;
+    width: 900px;
+    height: 116px;
+    line-height: 116px;
+    padding-right: 24px;
+}
+.bodycontainer .bbs-list strong#subject p{
+    padding-right: 24px;
+}
+
+
+.bodycontainer .bbs-list span#date{
+    display: table-cell;
+    width: 145px;
+    padding: 0px 32px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    vertical-align: middle;
+    height: 113px;
+    line-height: 113px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    
+}
+
+.pagination-wrap {
+    position: relative;
+    margin: 40px auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.pagination-wrap .pagination{
+    font-weight: 600;
+    color: #000;
+    text-decoration: underline;
+}
