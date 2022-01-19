@@ -3,7 +3,8 @@ padding:0;
 margin:0;
 font-family: 'Noto Sans KR', sans-serif;
 list-style: none;
-box-sizing: border-box;}
+box-sizing: border-box;
+text-decoration: none;}
 
 .app_intro
 {
@@ -84,6 +85,7 @@ box-sizing: border-box;}
     display: inline-block;
     max-width: 100%;
     float: right;
+    margin-right:230px;
   
 }
 
@@ -161,4 +163,48 @@ box-sizing: border-box;}
     margin-top:20px;
     margin-bottom: 140px;
     font-size: 18px;
+}
+
+
+.download h1{
+    display:flex;
+    float:left;
+    font-size: 40px;
+    margin: 0 85.5px;
+    padding:100px 48px;
+    color:black;
+    font-weight:700;
+    margin-right: 220px;
+
+}
+
+.down_img{
+    margin-left:500px;
+}
+
+.download a{
+    margin-top:100px;
+    margin-left:10px;
+    display: flex;
+    float:left;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 64px;
+    border: 1px solid #d6d6d6;
+}
+
+.download a:link{
+    color:black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.download img{
+    float:left;
+}
+
+.download img{
+    margin-top:100px;
+    margin-left:10px;
 }
