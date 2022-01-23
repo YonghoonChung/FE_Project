@@ -82,29 +82,54 @@ div.ui-bbs-view p.date{
    letter-spacing: 0.5px;
    font-size: 15px;
 }
-
+.ui-bbs-view{
+    height: 2000px;
+}
 .ui-bbs-content{
     width: 1200px;
-    height: 0px;
     padding-bottom: 10px;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 85px;
+    float: left;
 }
 
 .ui-bbs-content p{
-    margin-bottom: 20px;
-    line-height: 20px;
-    font-size: 14px;
+    margin-bottom: 30px; 
+    line-height: 30px;
+    font-size: 19px;
     font-weight: 200;
+}
+
+.ui-bbs-content p.num{
+    margin-bottom: 0px; 
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.ui-bbs-content span{
+    color: red;
+}
+
+.ui-bbs-content p.smallbox{
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: rgb(204, 204, 204);
 }
 
 
 .buttons{
+    border-top: 1px solid #cbcbcb;
     margin-top: 30px;
-    display: inline-block;
+    padding-top: 60px;
+    display: block;
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    clear: both;
 }
 
 .buttons .button.is-cmd.is-large {
@@ -125,6 +150,10 @@ div.ui-bbs-view p.date{
     background-color: transparent;
     box-shadow: none;
 }
+
+
+
+
 .ui-bbs-nav{
     margin-top: 80px;
     display: block;
