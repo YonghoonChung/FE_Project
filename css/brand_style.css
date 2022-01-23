@@ -2,10 +2,10 @@
 
 /* ========공용======== */
 /* 작은 메뉴바 */
-.container{
+/* .container{
     position:relative;
     top:173px;
-}
+} */
 .dot{
     border:1.5px solid black;
     display:inline-block;
