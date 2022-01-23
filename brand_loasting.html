@@ -114,7 +114,7 @@
 
     <!-- 바디 -->
     <tbody>
-        <div class="tbcontainer">
+        <div class="container">
             <!-- 작은메뉴바 -->
             <div class="smallmenuBox">
                 <div class="smallmenu">
@@ -125,7 +125,7 @@
             </div>
     
             <!-- 바디 -->
-            <div class="bodycontainer loastingcontainer">
+            <div class="bodycontainer">
                 <!-- 큰제목 -->
                 <div class="titleArea">
                     <div class="title">로스팅 플랜트</div>
@@ -158,7 +158,7 @@
     </tbody>
 
     <!-- 푸터 -->
-    
+    <!--
         <footer id="footer">
             <div class="container">
                 <div class="footer_top">
@@ -221,32 +221,32 @@
                 </div>
             </div>
         </footer>
-    
+    -->
     
 
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
-   $(function(){
-   var rollHeader = 100;
-   $(window).scroll(function() {
-      var scroll = getCurrentScroll();
-      if ( scroll >= rollHeader ) {
-         $('.headerBox').addClass('roll');
-         }
-         else {
-            $('.headerBox').removeClass('roll');
-         }
-   });
-   function getCurrentScroll() {
-      return window.pageYOffset || document.documentElement.scrollTop;
-      }
-   });
+	$(function(){
+	var rollHeader = 100;
+	$(window).scroll(function() {
+		var scroll = getCurrentScroll();
+		if ( scroll >= rollHeader ) {
+			$('.headerBox').addClass('roll');
+			}
+			else {
+				$('.headerBox').removeClass('roll');
+			}
+	});
+	function getCurrentScroll() {
+		return window.pageYOffset || document.documentElement.scrollTop;
+		}
+	});
     $(document).ready(function(){
         $(".headerBox").hover(function(){
             $(".submenubarBox").slideToggle(200);
         });
     });
-   </script>
+	</script>
 </html>
