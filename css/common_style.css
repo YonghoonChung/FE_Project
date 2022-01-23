@@ -51,6 +51,7 @@ body::-webkit-scrollbar {
     text-indent: -9999px;
     background: url("/images/logo_black.png") no-repeat center;
     background-position: 38% 50%;
+    cursor: pointer;
 }
 
 .headerBox.roll .menubarBox .menubar .menu .menuitem > a{
@@ -259,6 +260,7 @@ footer li{
 }
 .footer_bottom_first{
     margin-bottom: 20px;
+    cursor: pointer;
 }
 .footer_bottom_first li{
     display: inline-block;
