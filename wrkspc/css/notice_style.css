@@ -1,17 +1,36 @@
 .notice{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 1200px;
-    height: 700px;
+    height: 600px;
     margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 0;
 }
 
-.smallmenu {
+/* .smallmenu {
     border: 1px solid black;
     display: block;
     height: 20px;
 }
 .smallmenu p{
     line-height: 20px;
+} */
+
+.dot{
+    border:1.5px solid black;
+    display:inline-block;
+    margin: 0px 4px 3px 4px;
+    background-color: black;
+}
+.smallmenuBox > .smallmenu .smallmenuitem{
+    font-size: 14px;
+}
+.smallmenuBox > .smallmenu > .gomain{
+    color:#808080;
+}
+.smallmenuBox > .smallmenu > .gobrand{
+    color:#dc2d5a;
+    font-weight: bolder;
 }
 
 .notice .title-wrap{
@@ -20,31 +39,70 @@
     font-size: 72px;
     font-weight: 700;
     line-height: 1.5;
-    height: 80px;
+    width: 100px;
+    height: 30px;
     flex-grow: 1;
     box-sizing: border-box;
 }
 
-h1.title-h1{
+.notice #title-h1{
+    display: inline-block;
     padding-top: 20px;
-    margin-top: 80px;
-    font-size: 72px;
-    font-weight: 700;
+    margin-top: 40px;
+    font-size: 73px;
+    font-weight: 720;
     line-height: 1.5;
+    width: 1000px;
     height: 80px;
     flex-grow: 1;
     box-sizing: border-box;
+    letter-spacing: 3px;
 }
 
 .seacrhbar-wrap{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: block;
     height: 30px;
+   
 }
 
 .seacrhbar-wrap .seacrhbar{
     text-align: right;
     line-height: 30px;
+    margin-top: 50px;
+    padding-right: 100px;
+}
+
+select#searchType {
+    width: 100px;
+    padding-left: 0;
+    padding-right: 20px;
+
+    height: 56px;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+
+}
+
+span.search-board-input.input{
+    padding-left: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: inline;
+}
+input#searchTxt{
+    height: 56px;
+    padding: 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    width: 300px;
+    box-sizing: border-box;
+    color: #333;
+    line-height: normal;
+
 }
 .bodycontainer .bbs-list{
     margin-top: 40px;
@@ -54,6 +112,7 @@ h1.title-h1{
     float: left;
     display: table-cell;
     height: 116px;
+    position: relative;
     line-height: 116px;
     width: 90px;
     padding: 0px 32px;
@@ -84,12 +143,15 @@ h1.title-h1{
 }
 .bodycontainer .bbs-list strong#subject p{
     padding-right: 24px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 
 .bodycontainer .bbs-list span#date{
     display: table-cell;
-    width: 145px;
+    width: 170px;
     padding: 0px 32px;
     border-top: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
@@ -100,18 +162,70 @@ h1.title-h1{
     font-size: 14px;
     font-weight: 400;
     color: #333;
-    
+    position: relative;
 }
 
+
+.bodycontainer .bbs-list span#date p{
+    color:#999;
+    letter-spacing: 0.3px;
+    font-size: 15px;
+}
 .pagination-wrap {
     position: relative;
     margin: 40px auto;
     text-align: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .pagination-wrap .pagination{
     font-weight: 600;
     color: #000;
     text-decoration: underline;
+}
+
+.pagination:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.pagination, .pagination-list {
+    display: inline-block;
+    text-align: center;
+    font-size: 0;
+    margin: 0 -3px;
+}
+
+.button.is-black.is-outlined[disabled], fieldset[disabled] .button.is-black.is-outlined {
+    background-color: #f5f5f5;
+    border-color: #ebebeb;
+    color: #999;
+}
+
+.pagination .button-board, .pagination-list .button-board {
+    margin: 0 3px;
+}
+
+.button-board[disabled] {
+    opacity: 1;
+    border-color: #d6d6d6 !important;
+    background-color: #fff !important;
+}
+
+[disabled].pagination-link, [disabled].pagination-ellipsis, [disabled].button, fieldset[disabled] .pagination-link, fieldset[disabled] .pagination-ellipsis, fieldset[disabled] .button {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.button-board {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+}
+
+.button-board[disabled] i {
+    color: #d6d6d6;
+}
+
+.button-board i {
+    font-size: 16px;
 }
