@@ -115,6 +115,32 @@ text-decoration: none;}
 
 }
 
+.box2{
+    clear:both;
+    margin: 100px 85.5px 120px;
+    padding: 0 48px;
+}
+
+
+.box2 li{
+    display: flex;
+    width: 25%;
+    height: 300px;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+    float:left;
+}
+.box2 dl
+{
+    display: block;
+    width:100%;
+    border: #d6d6d6 solid 2px;
+    margin:12px;
+
+
+}
+
 
 .download{
     clear:both;
@@ -207,4 +233,16 @@ text-decoration: none;}
 .download img{
     margin-top:100px;
     margin-left:10px;
+}
+
+
+.float_no{
+    clear:both;
+}
+.swipe{
+    clear:both;
+    width:100%;
+    padding:64px;
+    margin:48px;
+    background-color: red;
 }
