@@ -23,9 +23,7 @@ body{
     overflow-x: hidden;
     overflow-y: visible;
 }
-body::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera*/
-}
+
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -171,7 +169,7 @@ body::-webkit-scrollbar {
 footer{
     background-color: #222;
     color: #fff;
-    margin-top: 40px;
+    margin-top: 200px;
     padding: 48px 0;
 }
 footer li{
