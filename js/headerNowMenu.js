@@ -15,7 +15,7 @@ switch (urlArray[3]){
     case "membership":
         items[3].style.color = "#d50037";
         break;
-    case "chain":
+    case "store":
         items[4].style.color = "#d50037";
         break;
     case "announcement":
